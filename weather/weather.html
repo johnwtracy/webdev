@@ -1,0 +1,32 @@
+<!doctype HTML>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title> Weather </title>
+<link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+
+<body onload="start()">
+<img id="sky" src="sky.jpg">
+<img id="yahoo" src="yahoo.jpg">
+<input type="text" id="zip" value="Enter Zip Code or Name">
+<button id="sub" onclick="buttonAction()">Submit</button>
+<div id="main">
+  <h1 id="loco"></h1>
+  <br>
+  <h2 id="date"></h2>
+  <h2 id="temp"></h2>
+  <h2 id="wind"></h2>
+  <h2 id="cond"></h2>
+</div>
+<h1 id="lab">5 Day Forecast</h1>
+<div id="forecast">
+
+</div>
+
+<script src="weather.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+Currently cannot find the place i need to consolelog to the prediction file. Still working on it.

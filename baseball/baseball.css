@@ -1,0 +1,30 @@
+h2 {
+	font-size: 70PX;
+	font-family: sans-serif;
+	background-color: rgb(120, 120, 100);
+	text-align: center;
+}
+
+body {
+	background-color: white;	
+	text-align: center;
+}
+
+div.images {
+	background-color: rgb(100, 50, 50);
+	text-align: center;
+}
+
+div.item {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+	min-width: 100px;
+	margin: 1%;
+}
+
+img {
+	float: center;
+	width: 100%;
+	text-align: center;
+}
